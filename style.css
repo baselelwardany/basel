@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*{
+    font-family: "Poppins" sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#f0f0f0;
+    width: 100%;
+    position:fixed ;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-style: 700;
+    font-size: 1.8em;
+}
+header nav a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #601cfc;
+
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100hv;
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(blue-white);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 span{
+   color: rgb(255, 0, 195);
+    font-size:3em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.main2{
+    color: red;
+    font-size: 1.4 em;
+    font-weight: 500;
+}
+.main h3{
+    color: red;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+}
+
+.main .social-icons a{
+    color: red;
+    font-size: 1.4 em;
+    padding-right: 50px;
+}
+
+.projects{
+    background-image: radial-gradient(rgb(156,156,199),blue,white);
+}
+.project-content{
+    margin-top: 30px;
+}
+.project-card{
+    border: 1px solid #fff;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
